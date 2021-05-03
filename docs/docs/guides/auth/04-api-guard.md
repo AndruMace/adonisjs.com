@@ -38,7 +38,7 @@ The tokens issued by the server has to be persisted within the localstorage and 
 If you are creating an API server, which is consumed by third party applications, then you must look into [OAuth 2.0
 ](https://oauth.net/2/) and [OpenID Connect](https://openid.net/connect/). Both of these specifications are written with years of research and answers most of the security related questions.
 
-Unfortunately, there is no first class support for Oauth2 in AdonisJS (as of you today). However, you can use other packages from npm to implement an Oauth2 server.
+Unfortunately, there is no first class support for Oauth2 in AdonisJS (as of today). However, you can use other packages from npm to implement an Oauth2 server.
 
 ## Login
 Once, the [setup](/guides/auth/setup) has been completed, you can use the `api` guard to generate the **oat tokens** for a given user.
